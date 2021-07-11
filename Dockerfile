@@ -1,7 +1,7 @@
 # Pull base image 
-From tomcat:8-jre8 
+From nginx 
 
 # Maintainer 
 MAINTAINER "nsrividhya9@gmail.com" 
-COPY ./webapp /usr/local/tomcat/webapps
+COPY ./webapp /usr/local/nginx/webapps
 EXPOSE 8080
